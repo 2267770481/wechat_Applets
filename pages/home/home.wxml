@@ -1,2 +1,5 @@
 <!--pages/home/home.wxml-->
-<text>pages/home/home.wxml</text>
+<van-grid column-num="3">
+  <van-grid-item icon="photo-o" text="文字" wx:for="{{ 6 }}" />
+</van-grid>
+

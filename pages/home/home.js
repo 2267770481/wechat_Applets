@@ -26,7 +26,13 @@ Page({
    * 生命周期函数--监听页面显示
    */
   onShow() {
-
+    // 自定义tabbar初始化
+    if (typeof this.getTabBar === 'function' && this.getTabBar()) {
+      this.getTabBar().setData({
+        active: 0,
+        // createIcon: 'edit'
+      })
+    }
   },
 
   /**

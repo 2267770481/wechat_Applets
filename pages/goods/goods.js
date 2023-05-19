@@ -1,4 +1,4 @@
-// pages/mine/mine.js
+// pages/goods/goods.js
 Page({
 
   /**
@@ -29,7 +29,7 @@ Page({
     // 自定义tabbar初始化
     if (typeof this.getTabBar === 'function' && this.getTabBar()) {
       this.getTabBar().setData({
-        active: 2,
+        active: 1,
         // createIcon: 'edit'
       })
     }
